@@ -87,7 +87,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Shaders\Fxaa3_11.hlsli">
+    <Content Include="Shaders\Fxaa3_11.h">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Shaders\MainPS.hlsl">
