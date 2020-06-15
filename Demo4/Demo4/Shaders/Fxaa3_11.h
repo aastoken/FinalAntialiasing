@@ -1,6 +1,4 @@
-#define FXAA_PC 1
-#define FXAA_HLSL_5 1
-#define FXAA_QUALITY__PRESET 12
+
 
 /*============================================================================
 
@@ -204,7 +202,7 @@ A. Or use FXAA_GREEN_AS_LUMA.
     // FXAA Quality
     // The high quality PC algorithm.
     //
-    #define FXAA_PC 0
+    #define FXAA_PC 1
 #endif
 /*--------------------------------------------------------------------------*/
 #ifndef FXAA_PC_CONSOLE
@@ -233,7 +231,7 @@ A. Or use FXAA_GREEN_AS_LUMA.
 #endif
 /*--------------------------------------------------------------------------*/
 #ifndef FXAA_HLSL_5
-    #define FXAA_HLSL_5 0
+    #define FXAA_HLSL_5 1
 #endif
 /*==========================================================================*/
 #ifndef FXAA_GREEN_AS_LUMA
@@ -401,7 +399,7 @@ NOTE the other tuning knobs are now in the shader function inputs!
     //  _ = the lowest digit is directly related to performance
     // _  = the highest digit is directly related to style
     // 
-    #define FXAA_QUALITY__PRESET 12
+    #define FXAA_QUALITY__PRESET 15
 #endif
 
 
