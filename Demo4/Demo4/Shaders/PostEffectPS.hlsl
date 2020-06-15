@@ -16,6 +16,8 @@ float3 main( OutputVS input ) : SV_TARGET
 	FxaaFloat2 pos = float2(0.0,0.0);
 	FxaaFloat4 fxaaConsolePosPos = float4(0,0,0,0);
 	FxaaTex tex = { samplerState, sceneTexture };
+
+
 	FxaaTex fxaaConsole360TexExpBiasNegOne = { samplerState, sceneTexture };
 	FxaaTex fxaaConsole360TexExpBiasNegTwo = { samplerState, sceneTexture };
 	FxaaFloat2 fxaaQualityRcpFrame = float2(1.0 / (1280.0), 1.0 / (720.0));
