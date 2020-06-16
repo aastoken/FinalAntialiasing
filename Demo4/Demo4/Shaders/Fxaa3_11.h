@@ -253,7 +253,7 @@ A. Or use FXAA_GREEN_AS_LUMA.
     // 1 = On.
     // 0 = Off.
     //
-    #define FXAA_GREEN_AS_LUMA 0
+    #define FXAA_GREEN_AS_LUMA 1
 #endif
 /*--------------------------------------------------------------------------*/
 #ifndef FXAA_EARLY_EXIT

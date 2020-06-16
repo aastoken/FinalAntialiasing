@@ -321,7 +321,7 @@
             float y = origin + step * j;
             Matrix worldMatrix = Matrix.Translation( x, y, 0.0f );
 
-            var cameraPosition = new Vector3( 90.0f, -90.0f, -90.0f);
+            var cameraPosition = new Vector3( 0.0f, -10.0f, -10.0f);
             var cameraTarget = Vector3.Zero;
             var cameraUp = -Vector3.UnitZ;
             var viewMatrix = Matrix.LookAtLH( 0.75f * cameraPosition, cameraTarget, cameraUp );
